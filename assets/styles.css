@@ -1,0 +1,60 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.min.css");
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+#search-box {
+  width: 60%;
+  height: 2rem;
+  font-size: 1rem;
+  padding-left: 0.5rem;
+}
+
+#search-button {
+  height: 2rem;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  background-color: #2ecc71;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#search-button:hover {
+  background-color: #27ae60;
+}
+
+.weather {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.icon-container {
+  font-size: 6rem;
+  margin-right: 1rem;
+}
+
+.temperature {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 1.5rem;
+}
